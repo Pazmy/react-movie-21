@@ -15,11 +15,17 @@ export const Content = styled.div`
 `;
 
 export const LogoImg = styled.img`
-  width: 200px;
+  height: 40px;
 
   @media screen and (max-width: 500px) {
     width: 150px;
   }
+`;
+
+export const Text = styled.div`
+  color: var(--white);
+  font-size: 30px;
+  margin-left: 7px;
 `;
 
 export const TMDBLogoImg = styled.img`
@@ -28,4 +34,9 @@ export const TMDBLogoImg = styled.img`
   @media screen and (max-width: 500px) {
     width: 80px;
   }
+`;
+
+export const LeftLogo = styled.div`
+  display: flex;
+  justify-content: "center";
 `;
